@@ -682,3 +682,12 @@ define Device/zbt-wg3526-32M
 	kmod-usb3 kmod-usb-ledtrig-usbport wpad-basic
 endef
 TARGET_DEVICES += zbt-wg3526-32M
+
+define Device/cudy-wr2100
+  DTS := CUDY-WR2100
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := CUDY-WR2100
+  DEVICE_PACKAGES := \
+	kmod-mt7603 kmod-mt7615e kmod-usb-ledtrig-usbport wpad-basic
+endef
+TARGET_DEVICES += cudy-wr2100

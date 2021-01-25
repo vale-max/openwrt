@@ -100,6 +100,9 @@ ramips_board_detect() {
 	*"CS-QR10")
 		name="cs-qr10"
 		;;
+	*"Cudy WR2100")
+		name="cudy-wr2100"
+		;;
 	*"CY-SWR1100")
 		name="cy-swr1100"
 		;;
